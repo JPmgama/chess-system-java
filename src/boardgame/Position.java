@@ -9,9 +9,9 @@ public class Position {
 		
 	}
 	
-	public Position(int row, int color) {
+	public Position(int row, int column) {
 		this.row = row;
-		this.column = color;
+		this.column = column;
 	}
 
 	public int getRow() {
@@ -22,7 +22,7 @@ public class Position {
 		this.row = row;
 	}
 
-	public int getColor() {
+	public int getColumn() {
 		return column;
 	}
 
